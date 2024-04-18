@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>EldenCraft Reforged</title>
+        <link  rel="stylesheet" type="text/css" href="../css/estilos.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="../imagen/logo.png">
+    </head>
+    <body>
+        
+        <script>
+            function showLinks(sectionId) {
+                const links = document.getElementById(sectionId + '-links');
+                if (links.style.display === 'none') {
+                    links.style.display = 'block';
+                } else {
+                    links.style.display = 'none';
+                }
+            }
+        </script>
+        <script>
+            const body = document.body;
+            const currentTime = new Date().getHours();
+    
+            if (currentTime >= 6 && currentTime <= 18) {
+              body.style.backgroundImage = 'url(https://64.media.tumblr.com/3050089750e85f34aac5d2b08d50453a/72461282b15b99f9-35/s1280x1920/784fdb27877c49f112de25fdb92742c54c8f9518.gif)';
+            } else {
+              body.style.backgroundImage = 'url(https://64.media.tumblr.com/afcecb317bd48b54d9f94024a27a3593/61e45c7d98f8abd5-ee/s540x810/cda2db6c9e8e982a6455bc2851a04fe993ac28b1.gif)';
+            }
+          </script>
+
+      <header>
+        <img src="../imagen/nombre.png" alt="Modpack logo" class="nombre">
+      </header>
+      <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+          </ul>
+      </nav>
+
+      <h1>ESCOGE QUE TUTORIAL QUIERES VER</h1>
+
+      <ul class="description">
+        <li><h2 id="optimizations" onclick="showLinks('optimizations')">Personaje</h2></li>
+        <ul id="optimizations-links" class="links">
+            <video controls="" src="../video/personaje/personaje1.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Al entrar por primera vez, se nos mostrará un menú en el que podremos personalizar nuestro personaje, cambiándole el tamaño, piel, ropa, etc. (Esta función solo se aplicará a la genética del personaje y a aquellos jugadores con la skin por defecto).
+                <br>Después, tendremos que elegir nuestro lugar de aparición y pasamos al siguiente apartado.</p>
+            <video controls="" src="../video/personaje/personaje2.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Ahora tendremos que escoger nuestro Origen, que equivale a la raza del personaje. Estas se dividen en rangos de impacto que varían de no dar ningún cambio en el juego a ser un cambio significativo en el estilo de juego.
+                <br>Cada origen es diferente y trae una lista de habilidades pasivas y/o activas a la par que algunas desventajas para equilibrar las anteriores. Hay que aclarar que esta decisión es única y no podrás cambiar tu origen más adelante en el modo supervivencia.</p>
+            <video controls="" src="../video/personaje/personaje3.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Pasamos a uno de los apartados más importantes de tu personaje, los artefactos. Estos serán los que decidan tu tipo de personaje. Cada artefacto te otorgará unas habilidades pasivas que, juntándolas bien, puedes crear sinergias extremadamente poderosas. También puedes completar conjuntos de artefactos para obtener bonos extras.</p>
+            <video controls="" src="../video/personaje/personaje4.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Finalmente, tenemos el árbol de habilidad, que especificará la clase de tu personaje dependiendo de las pasivas que escojas. Puede variar entre cocinero, herrero, guerrero, mago, etc.<br>
+            Para desbloquar los nodos del árbol de habilidades necesitaras obtener experiencia.</p>
+        </ul>
+
+        <li><h2 id="aventura" onclick="showLinks('aventura')">Armas</h2></li>
+        <ul id="aventura-links" class="links">
+            <video controls="" src="../video/armas/armas1.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Existen 3 maneras de mejorar tu equipamiento. La primera es usando la reforja, lo cual cambia la rareza del armamento y le añade pasivas. La segunda es 
+                incrustandole gemas que le otorgaran pasivas. La tercera es usando los encantamientos.</p>
+            <video controls="" src="../video/armas/armas2.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>El combate de tu personaje puede variar entre cuerpo a cuerpo, hechizero, arquero y un estilo de combos exclusivo para las armas legendarias</p>
+            <video controls="" src="../video/armas/armas3.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Cuanto mas te alejas del punto de spawn, de mayor sera el nivel de las criaturas que aparezcan, multiplicando la vida, armadura y daño</p>
+        </ul>
+        <li><h2 id="construccion" onclick="showLinks('construccion')">Aldeas</h2></li>
+        <ul id="construccion-links" class="links">
+            <video controls="" src="../video/aldeas/aldeas1.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Al adentrarte en una aldea, podras crear nuevos edificios, establecer relaciones e incluso gobernar el pueblo</p>
+        </ul>
+        <li><h2 id="cocina" onclick="showLinks('cocina')">Misiones</h2></li>
+        <ul id="cocina-links" class="links">
+            <video controls="" src="../video/misiones/misiones1.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Para avanzar en la historia deberas completar misiones, al completar misiones desbloquearas moneadas y en algunos momentos nuevas funciones como la tienda</p>
+            <video controls="" src="../video/misiones/misiones2.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>La Elden Store utiliza monedas para obtener Equipamiento Aleatorio de manera facil. Estas monedas las obtendras haciendo misiones o intercambiandolas</p>
+            <video controls="" src="../video/misiones/misiones3.mp4" width="100%" codecs="mp4v.20.8, mp4a.40.2"></video>
+            <p>Finalmente, las dimensiones estan bloqueadas por fases de historia, y al completar una mision especifica, podras acceder a esta dimensión</p>
+        </ul>
+    </ul>
+
+      <footer>
+        <p>Copyright © 2024 Minecraft. All rights reserved.</p>
+      </footer>
+    </body>
+</html>

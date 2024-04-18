@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>EldenCraft Reforged</title>
+        <link  rel="stylesheet" type="text/css" href="css/estilos.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="imagen/logo.png">
+    </head>
+    <body>
+      <script>
+        const body = document.body;
+        const currentTime = new Date().getHours();
+
+        if (currentTime >= 6 && currentTime <= 18) {
+          body.style.backgroundImage = 'url(https://64.media.tumblr.com/3050089750e85f34aac5d2b08d50453a/72461282b15b99f9-35/s1280x1920/784fdb27877c49f112de25fdb92742c54c8f9518.gif)';
+        } else {
+          body.style.backgroundImage = 'url(https://64.media.tumblr.com/afcecb317bd48b54d9f94024a27a3593/61e45c7d98f8abd5-ee/s540x810/cda2db6c9e8e982a6455bc2851a04fe993ac28b1.gif)';
+        }
+      </script>
+      <header>
+        <img src="imagen/nombre.png" alt="Modpack logo" class="nombre">
+      </header>
+      <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="html/mods.html">Mods</a></li>
+            <li><a href="html/tutoriales.html">Tutoriales</a></li>
+            <li><a href="html/sobre.html">Sobre</a></li>
+          </ul>
+      </nav>
+
+      <img src="imagen/logo.png" alt="Modpack logo" class="logo">
+
+      <p class="description">Bienvenidos a EldenCraft Reforged, un modpack
+        rpg para Minecraft Forge 1.19.2, explora diferentes dimensiones y
+        avanza en las misiones y la historia de el Mundo Origen
+        <a href="https://drive.google.com/file/d/153yKYDWM4zQZB2rB5F0NED6xM02bK8WL/view?usp=drive_link" class="download-button">Descargar!</a>
+      </p>
+
+      <footer>
+        <p>Copyright © 2024 Minecraft. All rights reserved.</p>
+      </footer>
+    </body>
+</html>
