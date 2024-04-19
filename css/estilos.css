@@ -48,7 +48,7 @@ nav {
     background-color: rgba(0, 0, 0); 
     display: flex;
     padding: 1%;
-    margin-bottom: auto;
+    margin-bottom: 10%;
     border-bottom: rgba(160, 160, 160) solid 4px;
     box-shadow: black 0px 10px 10px;
     position: sticky;
