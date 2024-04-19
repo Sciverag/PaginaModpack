@@ -85,7 +85,7 @@ nav a:hover {
 
 .logo {
   display: block;
-  margin: auto;
+  margin: auto 10%;
   width: 40%;
   box-shadow: black 0px 0px 9px 9px;
 }
@@ -149,7 +149,7 @@ nav a:hover {
   h1 {
     color: #ffc118;
     text-shadow: #000000 0px 0px 5px;
-    margin: auto;
+    margin: auto 10%;
     font-size: 500%;
   }
 
