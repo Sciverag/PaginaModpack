@@ -48,7 +48,6 @@ nav {
     background-color: rgba(0, 0, 0); 
     display: flex;
     padding: 1%;
-    margin-bottom: 10%;
     border-bottom: rgba(160, 160, 160) solid 4px;
     box-shadow: black 0px 10px 10px;
     position: sticky;
@@ -85,7 +84,7 @@ nav a:hover {
 
 .logo {
   display: block;
-  margin: auto 10%;
+  margin: 5% auto;
   width: 40%;
   box-shadow: black 0px 0px 9px 9px;
 }
@@ -149,7 +148,7 @@ nav a:hover {
   h1 {
     color: #ffc118;
     text-shadow: #000000 0px 0px 5px;
-    margin: auto 10%;
+    margin: 5% auto;
     font-size: 500%;
   }
 
